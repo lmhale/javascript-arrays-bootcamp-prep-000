@@ -7,7 +7,7 @@ function addElementToBeginningOfArray(array,element) {
 
  colors.unshift(element);
  return colors;
-  
+
 }
 
 function destructivelyAddElementToBeginningOfArray(array,element){
