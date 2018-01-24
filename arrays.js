@@ -19,6 +19,6 @@ function addElementToEndOfArray(array, element) {
   return colors;
 }
 
-function destructivelyAddElementToEndOfArray() {
+function destructivelyAddElementToEndOfArray(array,element) {
   return [...colors,element];
 }
