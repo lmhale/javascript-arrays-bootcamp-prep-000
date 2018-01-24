@@ -1,7 +1,7 @@
 
 var chocolateBars = ['snickers','hundred grand','kitkat','skittles'];
 
-var colors = ['red','blue','green'];
+var colors = ['red','blue','green','pink','purple'];
 
 function addElementToBeginningOfArray(array,element) {
 
@@ -14,7 +14,7 @@ function destructivelyAddElementToBeginningOfArray(array,element){
   return [element,...colors];
 }
 
-addElementToBeginningOfArray(colors,'foo');
+
 
 function addElementToEndOfArray(array, element) {
   colors.push(element)
