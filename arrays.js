@@ -3,24 +3,16 @@ var chocolateBars = ['snickers','hundred grand','kitkat','skittles'];
 
 var colors = ['red','blue','green','pink','purple'];
 
-function addElementToBeginningOfArray(array,element) {
-
- colors.unshift(element);
- return colors;
-
+function addElementToBeginningOfArray(array,element){
+  array.unshift(element);
+  return array;
+  
 }
 
 function destructivelyAddElementToBeginningOfArray(array,element){
-  return [element,...colors];
+  return [element,...array];
+  
 }
 
 
 
-function addElementToEndOfArray(array, element) {
-  colors.push(element)
-  return colors;
-}
-
-function destructivelyAddElementToEndOfArray(array,element) {
-  return [...colors,element];
-}
