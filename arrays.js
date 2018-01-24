@@ -14,6 +14,8 @@ function destructivelyAddElementToBeginningOfArray(array,element){
   return [element,...colors];
 }
 
+addElementToBeginningOfArray(colors,'foo');
+
 function addElementToEndOfArray(array, element) {
   colors.push(element)
   return colors;
